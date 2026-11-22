@@ -1,44 +1,51 @@
 #!/usr/bin/env python3
-"""make.fun bounty: Sum up 22 November's world news in one image.
+"""Copy the committed front page to the grader's output directory.
 
-The entry image is drawn by render.py (Pillow, DejaVu) from the 32
-verified 22 Nov 2026 stories in stories.json, and committed here as
-entry.png. This program only copies it to the output directory: the
-grader runs with the standard library alone and no network, so the
-copy keeps the entry deterministic and offline. Two runs write the
-same bytes.
+The picture itself lives in this repository as entry.png; this program
+only checks that it is a well-formed PNG inside the competition limits
+and copies it to $MAKEFUN_OUTPUT_DIR, or to /output when that variable
+is not set. Nothing is drawn or fetched here.
 """
-import hashlib
 import os
 import shutil
+import struct
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, "entry.png")
-PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
+SOURCE = os.path.join(HERE, "entry.png")
 MAX_BYTES = 1048576
+MAX_SIDE = 1024
+PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 
 
-def main() -> int:
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    out = os.path.join(out_dir, "entry.png")
-    if not os.path.isfile(SRC):
-        print("entry.png not found next to main.py", file=sys.stderr)
-        return 1
-    with open(SRC, "rb") as fh:
-        head = fh.read(len(PNG_MAGIC))
-    if head != PNG_MAGIC:
-        print("entry.png is not a PNG file", file=sys.stderr)
-        return 1
-    if os.path.getsize(SRC) > MAX_BYTES:
-        print("entry.png exceeds the 1 MiB limit", file=sys.stderr)
-        return 1
-    os.makedirs(out_dir, exist_ok=True)
-    shutil.copyfile(SRC, out)
-    digest = hashlib.sha256(open(out, "rb").read()).hexdigest()
-    print(f"wrote {out} ({os.path.getsize(out)} bytes, sha256 {digest})")
-    return 0
+def read_size(path):
+    """Return (width, height) of a PNG, rejecting anything malformed."""
+    with open(path, "rb") as handle:
+        head = handle.read(33)
+    if head[:8] != PNG_MAGIC:
+        raise ValueError("entry.png does not start with the PNG signature")
+    if len(head) < 33 or head[12:16] != b"IHDR":
+        raise ValueError("entry.png has no IHDR chunk where one belongs")
+    width, height = struct.unpack(">II", head[16:24])
+    return width, height
+
+
+def main():
+    outdir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+    size = os.path.getsize(SOURCE)
+    if size > MAX_BYTES:
+        raise ValueError(
+            "entry.png is %d bytes, over the 1 MiB limit" % size)
+    width, height = read_size(SOURCE)
+    if width > MAX_SIDE or height > MAX_SIDE:
+        raise ValueError(
+            "entry.png is %dx%d, over the 1024x1024 limit"
+            % (width, height))
+    os.makedirs(outdir, exist_ok=True)
+    target = os.path.join(outdir, "entry.png")
+    shutil.copyfile(SOURCE, target)
+    print("wrote %s (%d bytes)" % (target, size))
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()
