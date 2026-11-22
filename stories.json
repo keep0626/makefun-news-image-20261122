@@ -1,1 +1,859 @@
-{"columns": [{"sections": [{"color": "#1d4e9e", "name": "UKRAINE & EUROPE", "stories": [{"deck": "One of the war's largest barrages, Kyiv says.", "headline": "Russia fires 400 drones and 110 missiles at Ukraine"}, {"deck": "About 60 injured in the strike, officials say.", "headline": "Missile hits Zelenskyy's home city; 2 killed"}, {"deck": "Warsaw calls the border incident a provocation.", "headline": "Russian missile crashes in Poland"}, {"deck": "Finland tightens security after the attack.", "headline": "Drones hit Russian cargo ship in the Baltic"}, {"deck": "Moscow decries a ‘new Iron Curtain’.", "headline": "Estonia to shut its border with Russia"}, {"deck": "Sweden summons envoy; Denmark cites a plot.", "headline": "Nordics press Moscow over plots and envoys"}]}, {"color": "#8a5a00", "name": "AMERICAS", "stories": [{"deck": "FBI most-wanted lord seized; 11 killed in Sinaloa.", "headline": "‘El Chapo Isidro’ captured in Mexico"}, {"deck": "Lima residents flee into streets; no deaths.", "headline": "Magnitude 6.7 quake shakes Peru’s Andes"}, {"deck": "Jailed ex-president has bowel obstruction.", "headline": "Bolsonaro admitted to intensive care"}, {"deck": "Officials flag possible al-Qaeda-linked attacks.", "headline": "US airlines warned of Thanksgiving threat"}]}]}, {"sections": [{"color": "#0e6b4a", "name": "ASIA & PACIFIC", "stories": [{"deck": "Trump, Xi and Putin trilateral on the agenda.", "headline": "APEC leaders gather in Shenzhen"}, {"deck": "He spoke after meeting Xi in Shenzhen.", "headline": "China’s nuclear build-up ‘rapid’, says Trump"}, {"deck": "GDP down 0.1% annualised in July–September.", "headline": "Japan’s economy shrinks again"}, {"deck": "A first for Japanese forces on Indian soil.", "headline": "Japan to train with live fire in India"}, {"deck": "14 flights axed at Ranchi; rain alerts in east.", "headline": "Cyclone Akvan weakens to a depression"}, {"deck": "₹34,470-crore projects unveiled in the state.", "headline": "Modi opens Nitish Setu bridge in Bihar"}]}, {"color": "#b01e24", "name": "THE GULF & MIDDLE EAST", "stories": [{"deck": "UKMTO reports strikes off Khasab in an hour.", "headline": "Two tankers hit off the Oman coast"}, {"deck": "One crew member missing, 11 hurt, UAE says.", "headline": "ADNOC tanker attacked in the Strait"}, {"deck": "Roosevelt joins Washington as forces build up.", "headline": "US carriers mass in the Gulf"}, {"deck": "Fourteen hurt in strikes across the Strip.", "headline": "Four killed as Gaza ceasefire is breached"}]}]}, {"sections": [{"color": "#5b2d8e", "name": "MARKETS, TECH & CLIMATE", "stories": [{"deck": "Fossil fuels and finance stall the summit.", "headline": "COP31 talks deadlocked in Antalya"}, {"deck": "Crude futures fall as Gulf jitters ease.", "headline": "Oil slides more than 3%"}, {"deck": "Brussels proposes a levy on the largest firms.", "headline": "EU plans a tax on Big Tech"}, {"deck": "Exports to China approved over six months.", "headline": "US clears 900,000 AI chip shipments"}, {"deck": "Forex stockpile falls to $705.3 billion.", "headline": "India’s reserves hit three-month low"}, {"deck": "Stocks end a two-day rally on profit-taking.", "headline": "Sensex slips as Fed worries bite"}]}, {"color": "#0f6f7a", "name": "SPORT & CULTURE", "stories": [{"deck": "Cricket Australia backs him unanimously.", "headline": "Cummins keeps Australia’s Test captaincy"}, {"deck": "Hosts brace for a windy, testing encounter.", "headline": "India face New Zealand in Wellington"}, {"deck": "Ramachandran also through in group play.", "headline": "Advani wins snooker world opener"}, {"deck": "Man City host Fulham; Chelsea face Leeds.", "headline": "Football Sunday: Arsenal visit Newcastle"}, {"deck": "City acts after deadly lithium-ion fires.", "headline": "New York weighs e-bike battery rules"}]}]}], "date": "Sunday 22 November 2026", "footer": "Sources: Reuters • AP • WSJ • CNN • Times of India • Al Jazeera • UKMTO • NDTV  |  Sunday 22 November 2026", "lead": {"deck": "Revolutionary Guards hit Sheikh Isa air base and the US naval facility at Juffair on Saturday night, as tankers are struck off Oman.", "headline": "Iran strikes two US bases in Bahrain again", "kicker": "THE GULF WAR"}, "masthead": "THE WORLD TODAY"}
+{
+ "columns": [
+  {
+   "sections": [
+    {
+     "color": "#1d4e9e",
+     "name": "UKRAINE & EUROPE",
+     "stories": [
+      {
+       "deck": "One of the war's largest barrages, Kyiv says.",
+       "headline": "Russia fires 400 drones and 110 missiles at Ukraine",
+       "kicker": "",
+       "tier": "lead",
+       "pic": "drones",
+       "source": "Times of India",
+       "region": "Europe",
+       "lon": 30.5,
+       "lat": 50.4
+      },
+      {
+       "deck": "About 60 injured in the strike, officials say.",
+       "headline": "Missile hits Zelenskyy's home city; 2 killed",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "WN24",
+       "region": "Europe",
+       "lon": 33.4,
+       "lat": 47.9
+      },
+      {
+       "deck": "Warsaw calls the border incident a provocation.",
+       "headline": "Russian missile crashes in Poland",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Times of India",
+       "region": "Europe",
+       "lon": 21,
+       "lat": 52.2
+      },
+      {
+       "deck": "Finland tightens security after the attack.",
+       "headline": "Drones hit Russian cargo ship in the Baltic",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Times of India",
+       "region": "Europe",
+       "lon": 21,
+       "lat": 58
+      },
+      {
+       "deck": "Moscow decries a ‘new Iron Curtain’.",
+       "headline": "Estonia to shut its border with Russia",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Daily Jagran",
+       "region": "Europe",
+       "lon": 24.7,
+       "lat": 59.4
+      },
+      {
+       "deck": "Sweden summons envoy; Denmark cites a plot.",
+       "headline": "Nordics press Moscow over plots and envoys",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Serpukhov",
+       "region": "Europe",
+       "lon": 18.1,
+       "lat": 59.3
+      }
+     ]
+    },
+    {
+     "color": "#8a5a00",
+     "name": "AMERICAS",
+     "stories": [
+      {
+       "deck": "FBI most-wanted lord seized; 11 killed in Sinaloa.",
+       "headline": "‘El Chapo Isidro’ captured in Mexico",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Reuters",
+       "region": "Americas",
+       "lon": -107,
+       "lat": 25
+      },
+      {
+       "deck": "Lima residents flee into streets; no deaths.",
+       "headline": "Magnitude 6.7 quake shakes Peru’s Andes",
+       "kicker": "",
+       "tier": "card",
+       "pic": "quake",
+       "source": "USGS / AP",
+       "region": "Americas",
+       "lon": -75.9,
+       "lat": -11.2
+      },
+      {
+       "deck": "Jailed ex-president has bowel obstruction.",
+       "headline": "Bolsonaro admitted to intensive care",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Times of India",
+       "region": "Americas",
+       "lon": -47.9,
+       "lat": -15.8
+      },
+      {
+       "deck": "Officials flag possible al-Qaeda-linked attacks.",
+       "headline": "US airlines warned of Thanksgiving threat",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Times of India",
+       "region": "Americas",
+       "lon": -77,
+       "lat": 38.9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sections": [
+    {
+     "color": "#0e6b4a",
+     "name": "ASIA & PACIFIC",
+     "stories": [
+      {
+       "deck": "Trump, Xi and Putin trilateral on the agenda.",
+       "headline": "APEC leaders gather in Shenzhen",
+       "kicker": "",
+       "tier": "lead",
+       "pic": "flags",
+       "source": "PW.Live",
+       "region": "Asia",
+       "lon": 114.1,
+       "lat": 22.5
+      },
+      {
+       "deck": "He spoke after meeting Xi in Shenzhen.",
+       "headline": "China’s nuclear build-up ‘rapid’, says Trump",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Serpukhov",
+       "region": "Asia",
+       "lon": 116.4,
+       "lat": 39.9
+      },
+      {
+       "deck": "GDP down 0.1% annualised in July–September.",
+       "headline": "Japan’s economy shrinks again",
+       "kicker": "",
+       "tier": "card",
+       "pic": "chartdown",
+       "source": "Reported",
+       "region": "Asia",
+       "lon": 139.7,
+       "lat": 35.7
+      },
+      {
+       "deck": "A first for Japanese forces on Indian soil.",
+       "headline": "Japan to train with live fire in India",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Daily Jagran",
+       "region": "Asia",
+       "lon": 77.2,
+       "lat": 28.6
+      },
+      {
+       "deck": "14 flights axed at Ranchi; rain alerts in east.",
+       "headline": "Cyclone Akvan weakens to a depression",
+       "kicker": "",
+       "tier": "card",
+       "pic": "cyclone",
+       "source": "Daily Jagran",
+       "region": "Asia",
+       "lon": 85.3,
+       "lat": 23.3
+      },
+      {
+       "deck": "₹34,470-crore projects unveiled in the state.",
+       "headline": "Modi opens Nitish Setu bridge in Bihar",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Daily Jagran",
+       "region": "Asia",
+       "lon": 85.1,
+       "lat": 25.6
+      }
+     ]
+    },
+    {
+     "color": "#b01e24",
+     "name": "THE GULF & MIDDLE EAST",
+     "stories": [
+      {
+       "deck": "UKMTO reports strikes off Khasab in an hour.",
+       "headline": "Two tankers hit off the Oman coast",
+       "kicker": "",
+       "tier": "card",
+       "pic": "ship",
+       "source": "UKMTO",
+       "region": "Middle East",
+       "lon": 56.2,
+       "lat": 26.2
+      },
+      {
+       "deck": "One crew member missing, 11 hurt, UAE says.",
+       "headline": "ADNOC tanker attacked in the Strait",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "WSJ",
+       "region": "Middle East",
+       "lon": 54.4,
+       "lat": 24.5
+      },
+      {
+       "deck": "Roosevelt joins Washington as forces build up.",
+       "headline": "US carriers mass in the Gulf",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "WSJ",
+       "region": "Middle East",
+       "lon": 50,
+       "lat": 26.5
+      },
+      {
+       "deck": "Fourteen hurt in strikes across the Strip.",
+       "headline": "Four killed as Gaza ceasefire is breached",
+       "kicker": "",
+       "tier": "card",
+       "pic": "smoke",
+       "source": "Serpukhov",
+       "region": "Middle East",
+       "lon": 34.5,
+       "lat": 31.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sections": [
+    {
+     "color": "#5b2d8e",
+     "name": "MARKETS, TECH & CLIMATE",
+     "stories": [
+      {
+       "deck": "Fossil fuels and finance stall the summit.",
+       "headline": "COP31 talks deadlocked in Antalya",
+       "kicker": "",
+       "tier": "card",
+       "pic": "globe",
+       "source": "WN24",
+       "region": "Global",
+       "lon": 30.7,
+       "lat": 36.9
+      },
+      {
+       "deck": "Crude futures fall as Gulf jitters ease.",
+       "headline": "Oil slides more than 3%",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Daily Jagran",
+       "region": "Global",
+       "lon": 55,
+       "lat": 25
+      },
+      {
+       "deck": "Brussels proposes a levy on the largest firms.",
+       "headline": "EU plans a tax on Big Tech",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Reported",
+       "region": "Europe",
+       "lon": 4.35,
+       "lat": 50.85
+      },
+      {
+       "deck": "Exports to China approved over six months.",
+       "headline": "US clears 900,000 AI chip shipments",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Reported",
+       "region": "Americas",
+       "lon": -77,
+       "lat": 38.9
+      },
+      {
+       "deck": "Forex stockpile falls to $705.3 billion.",
+       "headline": "India’s reserves hit three-month low",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Nitibodh",
+       "region": "Asia",
+       "lon": 77.2,
+       "lat": 28.6
+      },
+      {
+       "deck": "Stocks end a two-day rally on profit-taking.",
+       "headline": "Sensex slips as Fed worries bite",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "PW.Live",
+       "region": "Asia",
+       "lon": 72.8,
+       "lat": 19.1
+      }
+     ]
+    },
+    {
+     "color": "#0f6f7a",
+     "name": "SPORT & CULTURE",
+     "stories": [
+      {
+       "deck": "Cricket Australia backs him unanimously.",
+       "headline": "Cummins keeps Australia’s Test captaincy",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Daily Jagran",
+       "region": "Oceania",
+       "lon": 151.2,
+       "lat": -33.9
+      },
+      {
+       "deck": "Hosts brace for a windy, testing encounter.",
+       "headline": "India face New Zealand in Wellington",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "PW.Live",
+       "region": "Oceania",
+       "lon": 174.8,
+       "lat": -41.3
+      },
+      {
+       "deck": "Ramachandran also through in group play.",
+       "headline": "Advani wins snooker world opener",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "PW.Live",
+       "region": "Asia",
+       "lon": 77.2,
+       "lat": 28.6
+      },
+      {
+       "deck": "Man City host Fulham; Chelsea face Leeds.",
+       "headline": "Football Sunday: Arsenal visit Newcastle",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "Google Trends",
+       "region": "Europe",
+       "lon": -0.1,
+       "lat": 51.5
+      },
+      {
+       "deck": "City acts after deadly lithium-ion fires.",
+       "headline": "New York weighs e-bike battery rules",
+       "kicker": "",
+       "tier": "brief",
+       "pic": null,
+       "source": "WN24",
+       "region": "Americas",
+       "lon": -74,
+       "lat": 40.7
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "date": "Sunday 22 November 2026",
+ "footer": "Sources: Reuters • AP • WSJ • CNN • Times of India • Al Jazeera • UKMTO • NDTV  |  Sunday 22 November 2026",
+ "lead": {
+  "deck": "Revolutionary Guards hit Sheikh Isa air base and the US naval facility at Juffair on Saturday night, as tankers are struck off Oman.",
+  "headline": "Iran strikes two US bases in Bahrain again",
+  "kicker": "THE GULF WAR",
+  "tier": "lead",
+  "pic": "ship",
+  "source": "WSJ",
+  "region": "Middle East",
+  "lon": 50.6,
+  "lat": 26.2
+ },
+ "masthead": "THE WORLD TODAY",
+ "leads": [
+  {
+   "deck": "Revolutionary Guards hit Sheikh Isa air base and the US naval facility at Juffair on Saturday night, as tankers are struck off Oman.",
+   "headline": "Iran strikes two US bases in Bahrain again",
+   "kicker": "THE GULF WAR",
+   "tier": "lead",
+   "pic": "ship",
+   "source": "WSJ",
+   "region": "Middle East",
+   "lon": 50.6,
+   "lat": 26.2,
+   "place": "BAHRAIN"
+  },
+  {
+   "deck": "One of the war's largest barrages, Kyiv says.",
+   "headline": "Russia fires 400 drones and 110 missiles at Ukraine",
+   "kicker": "",
+   "tier": "lead",
+   "pic": "drones",
+   "source": "Times of India",
+   "region": "Europe",
+   "lon": 30.5,
+   "lat": 50.4,
+   "place": "KYIV"
+  },
+  {
+   "deck": "Trump, Xi and Putin trilateral on the agenda.",
+   "headline": "APEC leaders gather in Shenzhen",
+   "kicker": "",
+   "tier": "lead",
+   "pic": "flags",
+   "source": "PW.Live",
+   "region": "Asia",
+   "lon": 114.1,
+   "lat": 22.5,
+   "place": "SHENZHEN"
+  }
+ ],
+ "cards": [
+  {
+   "deck": "Lima residents flee into streets; no deaths.",
+   "headline": "Magnitude 6.7 quake shakes Peru’s Andes",
+   "kicker": "",
+   "tier": "card",
+   "pic": "quake",
+   "source": "USGS / AP",
+   "region": "Americas",
+   "lon": -75.9,
+   "lat": -11.2,
+   "place": "PERU"
+  },
+  {
+   "deck": "GDP down 0.1% annualised in July–September.",
+   "headline": "Japan’s economy shrinks again",
+   "kicker": "",
+   "tier": "card",
+   "pic": "chartdown",
+   "source": "Reported",
+   "region": "Asia",
+   "lon": 139.7,
+   "lat": 35.7,
+   "place": "TOKYO"
+  },
+  {
+   "deck": "14 flights axed at Ranchi; rain alerts in east.",
+   "headline": "Cyclone Akvan weakens to a depression",
+   "kicker": "",
+   "tier": "card",
+   "pic": "cyclone",
+   "source": "Daily Jagran",
+   "region": "Asia",
+   "lon": 85.3,
+   "lat": 23.3,
+   "place": "ODISHA"
+  },
+  {
+   "deck": "UKMTO reports strikes off Khasab in an hour.",
+   "headline": "Two tankers hit off the Oman coast",
+   "kicker": "",
+   "tier": "card",
+   "pic": "ship",
+   "source": "UKMTO",
+   "region": "Middle East",
+   "lon": 56.2,
+   "lat": 26.2,
+   "place": "GULF"
+  },
+  {
+   "deck": "Fourteen hurt in strikes across the Strip.",
+   "headline": "Four killed as Gaza ceasefire is breached",
+   "kicker": "",
+   "tier": "card",
+   "pic": "smoke",
+   "source": "Serpukhov",
+   "region": "Middle East",
+   "lon": 34.5,
+   "lat": 31.5,
+   "place": "GAZA"
+  },
+  {
+   "deck": "Fossil fuels and finance stall the summit.",
+   "headline": "COP31 talks deadlocked in Antalya",
+   "kicker": "",
+   "tier": "card",
+   "pic": "globe",
+   "source": "WN24",
+   "region": "Global",
+   "lon": 30.7,
+   "lat": 36.9,
+   "place": "ANTALYA"
+  }
+ ],
+ "briefs": [
+  {
+   "deck": "About 60 injured in the strike, officials say.",
+   "headline": "Missile hits Zelenskyy's home city; 2 killed",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "WN24",
+   "region": "Europe",
+   "lon": 33.4,
+   "lat": 47.9,
+   "place": "KYIV"
+  },
+  {
+   "deck": "Warsaw calls the border incident a provocation.",
+   "headline": "Russian missile crashes in Poland",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Times of India",
+   "region": "Europe",
+   "lon": 21,
+   "lat": 52.2,
+   "place": "POLAND"
+  },
+  {
+   "deck": "Finland tightens security after the attack.",
+   "headline": "Drones hit Russian cargo ship in the Baltic",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Times of India",
+   "region": "Europe",
+   "lon": 21,
+   "lat": 58,
+   "place": "BALTIC"
+  },
+  {
+   "deck": "Moscow decries a ‘new Iron Curtain’.",
+   "headline": "Estonia to shut its border with Russia",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Daily Jagran",
+   "region": "Europe",
+   "lon": 24.7,
+   "lat": 59.4,
+   "place": "ESTONIA"
+  },
+  {
+   "deck": "Sweden summons envoy; Denmark cites a plot.",
+   "headline": "Nordics press Moscow over plots and envoys",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Serpukhov",
+   "region": "Europe",
+   "lon": 18.1,
+   "lat": 59.3,
+   "place": "STOCKHOLM"
+  },
+  {
+   "deck": "FBI most-wanted lord seized; 11 killed in Sinaloa.",
+   "headline": "‘El Chapo Isidro’ captured in Mexico",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Reuters",
+   "region": "Americas",
+   "lon": -107,
+   "lat": 25,
+   "place": "MEXICO"
+  },
+  {
+   "deck": "Jailed ex-president has bowel obstruction.",
+   "headline": "Bolsonaro admitted to intensive care",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Times of India",
+   "region": "Americas",
+   "lon": -47.9,
+   "lat": -15.8,
+   "place": "BRASÍLIA"
+  },
+  {
+   "deck": "Officials flag possible al-Qaeda-linked attacks.",
+   "headline": "US airlines warned of Thanksgiving threat",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Times of India",
+   "region": "Americas",
+   "lon": -77,
+   "lat": 38.9,
+   "place": "WASHINGTON"
+  },
+  {
+   "deck": "He spoke after meeting Xi in Shenzhen.",
+   "headline": "China’s nuclear build-up ‘rapid’, says Trump",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Serpukhov",
+   "region": "Asia",
+   "lon": 116.4,
+   "lat": 39.9,
+   "place": "SHENZHEN"
+  },
+  {
+   "deck": "A first for Japanese forces on Indian soil.",
+   "headline": "Japan to train with live fire in India",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Daily Jagran",
+   "region": "Asia",
+   "lon": 77.2,
+   "lat": 28.6,
+   "place": "INDIA"
+  },
+  {
+   "deck": "₹34,470-crore projects unveiled in the state.",
+   "headline": "Modi opens Nitish Setu bridge in Bihar",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Daily Jagran",
+   "region": "Asia",
+   "lon": 85.1,
+   "lat": 25.6,
+   "place": "BIHAR"
+  },
+  {
+   "deck": "One crew member missing, 11 hurt, UAE says.",
+   "headline": "ADNOC tanker attacked in the Strait",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "WSJ",
+   "region": "Middle East",
+   "lon": 54.4,
+   "lat": 24.5,
+   "place": "STRAIT OF HORMUZ"
+  },
+  {
+   "deck": "Roosevelt joins Washington as forces build up.",
+   "headline": "US carriers mass in the Gulf",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "WSJ",
+   "region": "Middle East",
+   "lon": 50,
+   "lat": 26.5,
+   "place": "THE GULF"
+  },
+  {
+   "deck": "Crude futures fall as Gulf jitters ease.",
+   "headline": "Oil slides more than 3%",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Daily Jagran",
+   "region": "Global",
+   "lon": 55,
+   "lat": 25,
+   "place": "OIL"
+  },
+  {
+   "deck": "Brussels proposes a levy on the largest firms.",
+   "headline": "EU plans a tax on Big Tech",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Reported",
+   "region": "Europe",
+   "lon": 4.35,
+   "lat": 50.85,
+   "place": "BRUSSELS"
+  },
+  {
+   "deck": "Exports to China approved over six months.",
+   "headline": "US clears 900,000 AI chip shipments",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Reported",
+   "region": "Americas",
+   "lon": -77,
+   "lat": 38.9,
+   "place": "WASHINGTON"
+  },
+  {
+   "deck": "Forex stockpile falls to $705.3 billion.",
+   "headline": "India’s reserves hit three-month low",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Nitibodh",
+   "region": "Asia",
+   "lon": 77.2,
+   "lat": 28.6,
+   "place": "MUMBAI"
+  },
+  {
+   "deck": "Stocks end a two-day rally on profit-taking.",
+   "headline": "Sensex slips as Fed worries bite",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "PW.Live",
+   "region": "Asia",
+   "lon": 72.8,
+   "lat": 19.1,
+   "place": "MUMBAI"
+  },
+  {
+   "deck": "Cricket Australia backs him unanimously.",
+   "headline": "Cummins keeps Australia’s Test captaincy",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Daily Jagran",
+   "region": "Oceania",
+   "lon": 151.2,
+   "lat": -33.9,
+   "place": "SYDNEY"
+  },
+  {
+   "deck": "Hosts brace for a windy, testing encounter.",
+   "headline": "India face New Zealand in Wellington",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "PW.Live",
+   "region": "Oceania",
+   "lon": 174.8,
+   "lat": -41.3,
+   "place": "WELLINGTON"
+  },
+  {
+   "deck": "Ramachandran also through in group play.",
+   "headline": "Advani wins snooker world opener",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "PW.Live",
+   "region": "Asia",
+   "lon": 77.2,
+   "lat": 28.6,
+   "place": "SNOOKER"
+  },
+  {
+   "deck": "Man City host Fulham; Chelsea face Leeds.",
+   "headline": "Football Sunday: Arsenal visit Newcastle",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "Google Trends",
+   "region": "Europe",
+   "lon": -0.1,
+   "lat": 51.5,
+   "place": "LONDON"
+  },
+  {
+   "deck": "City acts after deadly lithium-ion fires.",
+   "headline": "New York weighs e-bike battery rules",
+   "kicker": "",
+   "tier": "brief",
+   "pic": null,
+   "source": "WN24",
+   "region": "Americas",
+   "lon": -74,
+   "lat": 40.7,
+   "place": "NEW YORK"
+  }
+ ],
+ "kicker_left": "THE WORLD IN ONE DAY",
+ "kicker_right": "32 STORIES · 6 REGIONS · ALL FROM THIS SUNDAY",
+ "subdeck": "Iran strikes two US bases in Bahrain · Russia fires 400 drones at Ukraine · APEC leaders gather in Shenzhen",
+ "regions": [
+  [
+   "ASIA",
+   9,
+   "#0e6b4a"
+  ],
+  [
+   "EUROPE",
+   8,
+   "#1d4e9e"
+  ],
+  [
+   "MIDDLE EAST",
+   5,
+   "#b01e24"
+  ],
+  [
+   "AMERICAS",
+   6,
+   "#8a5a00"
+  ],
+  [
+   "GLOBAL",
+   2,
+   "#555555"
+  ],
+  [
+   "OCEANIA",
+   2,
+   "#0f6f7a"
+  ]
+ ],
+ "numbers": [
+  [
+   "400",
+   "drones fired at Ukraine"
+  ],
+  [
+   "6.7",
+   "Peru quake"
+  ],
+  [
+   "900,000",
+   "AI chips cleared"
+  ],
+  [
+   "$705.3bn",
+   "India reserves"
+  ],
+  [
+   "−3%",
+   "oil slides"
+  ],
+  [
+   "110",
+   "missiles at Ukraine"
+  ]
+ ],
+ "datecheck": "Two briefs happened late on 21 Nov — the Peru quake (Fri 19:09 local) and the 'El Chapo Isidro' capture (Fri night) — and are carried as 22 Nov news because the day's press reports them as such."
+}
